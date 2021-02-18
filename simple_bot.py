@@ -4,12 +4,12 @@ question_answer = {
 }
 
 
-def ask_user ():
-    print ("Поговори со мной")
+def ask_user():
+    print("Поговори со мной")
     while True:
         question = input()
-        answer = question_answer.get (question)
-        print (answer)
+        answer = question_answer.get(question)
+        print(answer)
 
 
 ask_user()

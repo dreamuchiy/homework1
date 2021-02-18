@@ -4,15 +4,15 @@ question_answer = {
 }
 
 
-def ask_user ():
-    print ("Поговори со мной")
+def ask_user():
+    print("Поговори со мной")
     while True:
         try:
             question = input()
-            answer = question_answer.get (question)
-            print (answer)
+            answer = question_answer.get(question)
+            print(answer)
         except KeyboardInterrupt:
-            print ("Пока!")
+            print("Пока!")
             break
 
 
